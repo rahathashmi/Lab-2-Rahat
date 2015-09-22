@@ -1,0 +1,28 @@
+body{
+	background-color: grey;
+}
+
+
+#main 
+{
+	text-align:center;
+	
+}
+#images > div{ 
+display: none;
+}
+
+#images div:target{
+	  display: inline-block;
+  height: auto;
+  max-width:80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#images div:target .image {
+	max-width:80%;
+  margin-left:auto;
+  margin-right:auto;
+	
+}
